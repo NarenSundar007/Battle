@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./img/20240122_203242.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.outerbox{
+    width: 420px;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 30px 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.outerbox h1{
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.outerbox .inputb{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputb input{
+    width: 100%;
+    height: 100%;
+background: transparent;
+    border: none;
+    outline: none;
+    border:3px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+}
+.inputb input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 10px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+.inputb i{
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.outerbox button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin: 5px;
+}
+.outerbox .link{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.link p a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.link p a:hover{
+    text-decoration: underline;
+}
